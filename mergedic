@@ -1,0 +1,8 @@
+def mergeDictionaries(dict1, dict2):
+    mergedDict = {**dict1, **dict2}
+    return mergedDict
+
+dictionary1 = {"a": 1, "b": 2}
+dictionary2 = {"c": 3, "d": 4}
+mergedDictionary = mergeDictionaries(dictionary1, dictionary2)
+print("Merged dictionary:", mergedDictionary)
